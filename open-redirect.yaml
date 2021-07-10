@@ -11,9 +11,32 @@ info:
 requests:
   - method: GET
     path:
-      - "{{BaseURL}}/?url=https://example.com"
-      - "{{BaseURL}}/url=$2f%2fexample.com"
-      - "{{BaseURL}}/cgi-bin/redirect.cgi?example.com"
+      - "{{BaseURL}}/daa/0/daa_optout_actions?action_id=3&&rd=https://example.com"
+      - "{{BaseURL}}/redirect?url=https://example.com"
+      - "{{BaseURL}}/?hostname=http://example.com"
+      - "{{BaseURL}}/widgets/experience?destination_url=https://example.com"
+      - "{{BaseURL}}/http://example.com"
+      - "{{BaseURL}}/ANBLICK/PantallaLogin?idioma=EN&pagina=https://example.com"
+      - "{{BaseURL}}/login?to=//example.com"
+      - "{{BaseURL}}//out?//example.com"
+      - "{{BaseURL}}/wp-content/plugins/phastpress/phast.php?service=scripts&src=https%3A%2F%2Fexample.com"
+      - "{{BaseURL}}/community/?foro=signin&redirect_to=https://example.com/"
+      - "{{BaseURL}}/wp-content/plugins/gtranslate/url_addon/gtranslate.php?glang=en&gurl=/www.example.com"
+      - "{{BaseURL}}/index.action?redirect:http://www.example.com/"
+      - "{{BaseURL}}/website/lang/en_US?r=https://example.com/"
+      - "{{BaseURL}}/OA_HTML/cabo/jsps/a.jsp?_t=fredRC&configName=&redirect=%2f%5cexample.com"
+      - "{{BaseURL}}/new/newhttp://example.com"
+      - "{{BaseURL}}/find_v2/_click?_t_id=&_t_q=&_t_hit.id=&_t_redirect=https://example.com"
+      - "{{BaseURL}}/gotoURL.asp?url=example.com&id=43569"
+      - "{{BaseURL}}/index.php?redirect=//example.com"
+      - "{{BaseURL}}/api/sso/v2/sso/jwt?error_url=http://example.com"
+      - "{{BaseURL}}/email_passthrough.php?email_ID=1&type=link&email_key=5QImTaEHxmAzNYyYvENAtYHsFu7fyotR&redirect_to=http%3A%2F%2Fexample.com"
+      - "{{BaseURL}}/ads/www/delivery/lg.php?dest=http://example.com"
+      - "{{BaseURL}}/adserve/www/delivery/lg.php?dest=http://example.com"
+      - "{{BaseURL}}/adserver/www/delivery/lg.php?dest=http://example.com"
+      - "{{BaseURL}}/openx/www/delivery/lg.php?dest=http://example.com"
+      - "{{BaseURL}}/revive/www/delivery/lg.php?dest=http://example.com"
+      - "{{BaseURL}}/www/delivery/lg.php?dest=http://example.com"
 
     matchers:
       - type: regex
