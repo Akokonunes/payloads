@@ -36,8 +36,8 @@ requests:
       - "{{BaseURL}}/adserver/www/delivery/lg.php?dest=http://example.com"
       - "{{BaseURL}}/openx/www/delivery/lg.php?dest=http://example.com"
       - "{{BaseURL}}/revive/www/delivery/lg.php?dest=http://example.com"
-      - "{{BaseURL}}/www/delivery/lg.php?dest=http://example.com"
-      - "{{BaseURL}}/CMSPages/GetDocLink.ashx?link=https://example.com"
+      - "{{BaseURL}}///example.com/%2F.."
+      - "{{BaseURL}}//example.com/..;/css"
       
     matchers:
       - type: regex
